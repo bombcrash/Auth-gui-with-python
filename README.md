@@ -1,5 +1,7 @@
 change PYTHON_URL_HERE with your actualy python code url
 
-change PASTEBIN_URL_HERE with your pastebin url
+change ACCOUNTS_URL_HERE with your accounts url
 
-pastebin format should be like this username:password
+accounts format should be like this username:password
+
+github and pastebin works

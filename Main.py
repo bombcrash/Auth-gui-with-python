@@ -33,7 +33,7 @@ class DarkTheme:
 class InstallerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("opium*")
+        self.root.title("AppName")
         self.root.geometry("400x260")
         self.root.resizable(False, False)
         self.root.overrideredirect(True)
@@ -43,7 +43,7 @@ class InstallerApp:
         
         self.apply_dark_theme()
         
-        self.title_chars = list("opium*")
+        self.title_chars = list("AppName")
         self.char_colors = [DarkTheme.RAINBOW_COLORS[0]] * len(self.title_chars)
         self.rainbow_position = -5
         self.title_labels = []

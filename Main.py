@@ -249,9 +249,9 @@ class InstallerApp:
     
     def check_credentials(self, username, password):
         try:
-            pastebin_url = "PASTEBIN_URL_HERE"
+            accounts_url = "ACCOUNTS_URL_HERE"
             
-            response = requests.get(pastebin_url, timeout=10)
+            response = requests.get(accounts_url, timeout=10)
             
             if response.status_code == 200:
                 credentials = response.text.splitlines()
